@@ -40,7 +40,6 @@ ssh -T git@bitbucket.org
 git init  
 git config --global user.name "Erik Hyun"  
 git config --global user.email "blackj0221@gmail.com"  
-sudo git config --system core.longpaths true
 
 #### 윈도우 환경에서 Pull할 때 LF->CRLF, Push할 때 CRLF->LF:  
 git config --global core.autocrlf true
