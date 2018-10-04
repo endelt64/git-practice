@@ -48,7 +48,7 @@ git config --global core.autocrlf true
 git config --global core.autocrlf input
 
 #### 원격 저장소를 로컬에 추가:  
-git remote add origin git@gitlab.com:Luberen/git-practice.git  
+git remote add origin git@bitbucket.org:Luberen/git-practice.git  
 git remote -v  
 git pull origin master
 
