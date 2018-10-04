@@ -79,14 +79,14 @@ local.properties
 
 
 ##### 원격 저장소 주소 변경하기:  
-git remote set-url origin '(ssh 저장소 링크)'
+git remote set-url origin "(ssh 저장소 링크)"
 
 ##### 원격 저장소에 Push할 때 "Updates were rejected because the tip of your current branch is behind" 에러 발생:  
 git pull origin master --allow-unrelated-histories  
 git push origin master
 
 ##### 원격 저장소로부터 Pull할 때 "Pull is not possible because you have unmerged files" 에러 발생:  
-git commit -am '(커밋 메시지)'  
+git commit -am "(커밋 메시지)"  
 git pull origin master
 
 ##### 로컬 저장소는 그대로 둔 채 원격 저장소에 있는 파일/폴더만 삭제하기:  
