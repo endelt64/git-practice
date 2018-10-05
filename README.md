@@ -54,7 +54,7 @@ git pull origin master
 #### 원격 저장소에 Push하기:  
 git status  
 git add .  
-git commit -m "(커밋 메시지)"  
+git commit -m (커밋 메시지)  
 git push origin master
 
 #### 기타  
