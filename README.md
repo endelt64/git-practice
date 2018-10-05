@@ -81,7 +81,7 @@ local.properties
 ##### 원격 저장소 주소 변경하기:  
 git remote set-url origin (SSH 형식의 저장소 링크)
 
-##### 원격 저장소에 Push할 때 "Updates were rejected because the tip of your current branch is behind" 에러 발생:  
+##### 원격 저장소에 Push할 때 "fatal: refusing to merge unrelated histories" 에러 발생:  
 git pull origin master --allow-unrelated-histories  
 git push origin master
 
