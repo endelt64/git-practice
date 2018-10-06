@@ -6,7 +6,7 @@ Git 연습을 위한 저장소
 #### SSH 키 생성 및 퍼미션 조정:  
 ssh-keygen -t rsa -b 4096 -C "blackj0221@gmail.com" [-t: 키의 타입 결정(rsa/dsa), -b: 키의 비트 수 결정(4096-bit), -C: 키 끝에 남길 코멘트]
 
-#### 공개 키(*.pub)를 authorized_keys 파일에 등록(윈도우의 경우 MINGW64/WSL 기반 공개 키를 각각 등록):  
+#### 공개 키(*.pub)를 authorized_keys 파일에 등록:  
 cat ~/.ssh/(공개 키 파일) >> ~/.ssh/authorized_keys
 
 #### SSH 폴더 및 키 퍼미션 조정  
@@ -29,7 +29,7 @@ ssh-copy-id -i (공개 키 파일) (사용자명)@(외부 IP)
 -> AuthorizedKeysFile .ssh/authorized_keys .ssh/authorized_keys2  
 -> PasswordAuthentication yes [선택]
 
-#### [공개 키를 Bitbucket에 등록]
+#### [공개 키를 Bitbucket에 등록(윈도우의 경우 MINGW64/WSL 기반 공개 키를 각각 등록)]
 
 #### Bitbucket과의 SSH 통신이 활성화되었는지 확인:  
 ssh -T git@bitbucket.org
