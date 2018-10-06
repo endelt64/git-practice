@@ -3,5 +3,9 @@
 .idea/
 out/
 
+# Visual Studo Code configurations
+.vscode/
+
 # User configurations
 local.properties
+
