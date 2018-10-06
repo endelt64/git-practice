@@ -70,6 +70,9 @@ File | Settings | Version Control | Git
 .idea/  
 out/
 
++# Visual Studio Code configurations  
+.vscode/
+
 +# Gradle configurations  
 .gradle/  
 build/
