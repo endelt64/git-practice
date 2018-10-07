@@ -7,5 +7,5 @@ out/
 .vscode/
 
 # User configurations
+idea.properties
 local.properties
-
