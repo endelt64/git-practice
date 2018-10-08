@@ -1,6 +1,7 @@
 # IntelliJ IDEA configurations
 *.iml
 .idea/
+META-INF/
 out/
 
 # Visual Studo Code configurations
