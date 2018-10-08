@@ -68,6 +68,7 @@ File | Settings | Version Control | Git
 +# IntelliJ IDEA configurations  
 *.iml  
 .idea/  
+META-INF/  
 out/
 
 +# Visual Studio Code configurations  
