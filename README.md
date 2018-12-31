@@ -51,6 +51,9 @@ git remote add origin git@bitbucket.org:Luberen/git-practice.git
 git remote -v  
 git pull origin master
 
+#### 기존의 원격 저장소를 로컬에 복제:  
+git clone git@bitbucket.org:Luberen/git-practice.git
+
 #### 원격 저장소에 Push하기:  
 git status  
 git add .  
