@@ -75,6 +75,7 @@ META-INF/
 out/
 
 +# Visual Studio Code configurations  
+*.code-workspace
 .vscode/
 
 +# Gradle configurations  
