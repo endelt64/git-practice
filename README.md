@@ -82,6 +82,9 @@ out/
 .gradle/  
 build/
 
++# Packages
+node_modules/
+
 +# User configurations  
 local.properties
 
