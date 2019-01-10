@@ -56,7 +56,7 @@ git clone git@bitbucket.org:Luberen/git-practice.git
 
 #### 원격 저장소에 Push하기:  
 git status  
-git add --p  
+git add -p  
 git commit -v (상단에 커밋 메시지 입력 후 Ctrl+X)  
 git push origin master
 
