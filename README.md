@@ -82,7 +82,7 @@ out/
 .gradle/  
 build/
 
-+# Packages
++# Packages  
 node_modules/
 
 +# User configurations  
