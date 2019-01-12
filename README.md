@@ -79,14 +79,12 @@ out/
 .vscode/
 
 +# Gradle configurations  
+local.properties  
 .gradle/  
 build/
 
 +# Packages  
 node_modules/
-
-+# User configurations  
-local.properties
 
 +# OS configurations  
 .DS_Store
