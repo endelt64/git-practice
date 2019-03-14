@@ -99,25 +99,25 @@ File | Settings | Version Control | Git
 
 #### .gitignore 파일 작성하기(예시):
 ```
-+# IntelliJ IDEA configurations  
+# IntelliJ IDEA configurations  
 *.iml  
 .idea/  
 META-INF/  
 out/
 
-+# Visual Studio Code configurations  
+# Visual Studio Code configurations  
 *.code-workspace  
 .vscode/
 
-+# Gradle configurations  
+# Gradle configurations  
 local.properties  
 .gradle/  
 build/
 
-+# Packages  
+# Packages  
 node_modules/
 
-+# OS configurations  
+# OS configurations  
 .DS_Store
 ```
 
