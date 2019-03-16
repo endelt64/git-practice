@@ -87,10 +87,8 @@ git push origin master
 ```
 
 ## 기타  
-#### WSL에서 PC 부팅 시 SSH 서버 자동 시작시키기:
-```
+#### WSL에서 PC 부팅 시 SSH 서버 자동 시작시키기:  
 https://gist.github.com/harleyday/76a103a1a0ca97c6f33706e4a8cc3307#file-wsl-ssh-server-md
-```
 
 #### IntelliJ IDEA에서 SSH 실행 파일을 Built-in이 아닌 Native로 바꾸기:
 ```
