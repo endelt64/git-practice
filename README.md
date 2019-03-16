@@ -34,11 +34,11 @@ ssh-copy-id -i (공개 키 파일) (사용자명)@(외부 IP)
 
 #### /etc/ssh/sshd_config 파일 설정
 ```
--> Port 2222 [WSL 전용: 윈도우 기본 SSH 포트 22와의 충돌 방지]
--> PermitRootLogin without-password
--> PubkeyAuthentication yes
--> AuthorizedKeysFile .ssh/authorized_keys .ssh/authorized_keys2
--> PasswordAuthentication yes [선택]
+Port 2222 [WSL 전용: 윈도우 기본 SSH 포트 22와의 충돌 방지]
+PermitRootLogin without-password
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys .ssh/authorized_keys2
+PasswordAuthentication yes [선택]
 ```
 
 #### [공개 키를 GitHub에 등록(윈도우의 경우 MINGW64/WSL 기반 공개 키를 각각 등록)]
