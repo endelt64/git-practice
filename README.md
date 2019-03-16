@@ -82,7 +82,7 @@ git clone git@github.com:NDelt/Git-Practice.git
 ```
 git status  
 git add -p  
-git commit -v (상단에 커밋 메시지 입력 후 Ctrl+X)  
+git commit -m "커밋 메시지"  
 git push origin master
 ```
 
