@@ -101,6 +101,10 @@ File | Settings | Version Control | Git
 .idea/
 META-INF/
 out/
+.iml
+.iml
+.ipr
+.iws
 
 # Visual Studio Code configurations
 *.code-workspace
@@ -114,7 +118,7 @@ build/
 # Packages
 node_modules/
 
-# OS configurations
+# macOS metadata
 .DS_Store
 ```
 
