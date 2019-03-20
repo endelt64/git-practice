@@ -107,13 +107,13 @@ out/
 .iws
 
 # Visual Studio Code configurations
-*.code-workspace
 .vscode/
+*.code-workspace
 
 # Gradle configurations
-local.properties
 .gradle/
 build/
+local.properties
 
 # Packages
 node_modules/
