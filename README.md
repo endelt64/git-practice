@@ -98,12 +98,11 @@ File | Settings | Version Control | Git
 #### .gitignore 파일 작성하기(예시):
 ```
 # IntelliJ IDEA configurations
-.idea/
 META-INF/
 out/
-.iml
-.ipr
-.iws
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/tasks.xml
 
 # Visual Studio Code configurations
 .vscode/
