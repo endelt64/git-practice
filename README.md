@@ -98,7 +98,6 @@ File | Settings | Version Control | Git
 #### .gitignore 파일 작성하기(예시):
 ```
 # IntelliJ IDEA configurations
-*.iml
 .idea/
 META-INF/
 out/
