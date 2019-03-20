@@ -102,7 +102,6 @@ File | Settings | Version Control | Git
 META-INF/
 out/
 .iml
-.iml
 .ipr
 .iws
 
