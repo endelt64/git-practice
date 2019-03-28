@@ -57,7 +57,7 @@ git config --global user.name "Erik Hyun"
 git config --global user.email "blackj0221@gmail.com"
 ```
 
-#### 개행 문자 LF로 유지:
+#### 개행 문자를 LF로 유지:
 ```
 git config --global core.eol lf
 git config --global core.autocrlf input
