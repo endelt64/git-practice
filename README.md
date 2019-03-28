@@ -57,12 +57,9 @@ git config --global user.name "Erik Hyun"
 git config --global user.email "blackj0221@gmail.com"
 ```
 
-#### 윈도우 환경에서 Pull할 때 LF->CRLF, Push할 때 CRLF->LF:
+#### 개행 문자 LF로 유지:
 ```
-git config --global core.autocrlf true
-```
-#### 유닉스/리눅스 환경에서 LF 유지:
-```
+git config --global core.eol lf
 git config --global core.autocrlf input
 ```
 
