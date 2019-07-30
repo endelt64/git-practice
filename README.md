@@ -4,7 +4,7 @@ Git 연습을 위한 저장소
 ## 주요 설정  
 #### SSH 키 생성 및 퍼미션 조정:
 ```
-ssh-keygen -t rsa -b 4096 -C "blackj0221@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "(이메일 주소)"
 [-t: 키의 타입 결정(rsa/dsa), -b: 키의 비트 수 결정(4096-bit), -C: 키 끝에 남길 코멘트]
 ```
 
@@ -53,8 +53,8 @@ ssh -T git@github.com
 #### Git 시작하기(--global로 지정된 명령은 최초 1회만 입력):
 ```
 git init
-git config --global user.name "Erik Hyun"
-git config --global user.email "blackj0221@gmail.com"
+git config --global user.name "(이름)"
+git config --global user.email "(이메일 주소)"
 ```
 
 #### 개행 문자를 LF로 유지:
