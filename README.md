@@ -83,23 +83,25 @@ git commit -m "(커밋 메시지)"
 git push origin master
 ```
 
+## Fork한 저장소를 원본 저장소의 최신 상태로 동기화하기
+* 다운스트림(Downstream): 어떤 브랜치로부터 Pulling한 자식 브랜치
+* 업스트림(Upstream): 자식 브랜치가 pushing하는 부모 브랜치
+
+#### 원격 저장소에 업스트림 브랜치 추가:
+```
+git remote add upstream (SSH 형식의 원본 저장소 링크)
+git remote -v
+```
+
+#### 업스트림 브랜치의 최신 이력 가져오기:
+
 ## 기타  
-#### WSL에서 PC 부팅 시 SSH 서버 자동 시작시키기:  
-https://gist.github.com/harleyday/76a103a1a0ca97c6f33706e4a8cc3307#file-wsl-ssh-server-md
-
-#### IntelliJ IDEA에서 SSH 실행 파일을 Built-in이 아닌 Native로 바꾸기:
-```
-File | Settings | Version Control | Git
-```
-
 #### .gitignore 파일 작성하기(예시):
 ```
 # IntelliJ IDEA configurations
+.idea/
 META-INF/
 out/
-.idea/workspace.xml
-.idea/usage.statistics.xml
-.idea/tasks.xml
 
 # Visual Studio Code configurations
 .vscode/
