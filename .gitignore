@@ -1,12 +1,19 @@
 # IntelliJ IDEA configurations
-*.iml
 .idea/
 META-INF/
 out/
 
-# Visual Studo Code configurations
+# Visual Studio Code configurations
 .vscode/
+*.code-workspace
 
-# User configurations
-idea.properties
+# Gradle configurations
+.gradle/
+build/
 local.properties
+
+# Packages
+node_modules/
+
+# macOS metadata
+.DS_Store
