@@ -84,16 +84,29 @@ git push origin master
 ```
 
 ## Fork한 저장소를 원본 저장소의 최신 상태로 동기화하기
-* 다운스트림(Downstream): 어떤 브랜치로부터 Pulling한 자식 브랜치
-* 업스트림(Upstream): 자식 브랜치가 pushing하는 부모 브랜치
+* 다운스트림(Downstream): Fork된 저장소, 또는 Fork하는 행위
+* 업스트림(Upstream): 원본 저장소, 또는 원본 저장소에 Push하는 행위
 
-#### 원격 저장소에 업스트림 브랜치 추가:
+#### 원격 저장소 목록에 업스트림 링크 추가:
 ```
 git remote add upstream (SSH 형식의 원본 저장소 링크)
 git remote -v
 ```
 
-#### 업스트림 브랜치의 최신 이력 가져오기:
+#### 업스트림의 최신 이력 가져오기:
+```
+git fetch upstream
+```
+
+#### 로컬 저장소의 마스터 브랜치로 이동한 후, 업스트림의 마스터 브랜치와 병합:
+```
+git merge upstream/master
+```
+
+#### 새롭게 병합한 로컬 저장소를 원격 저장소(Fork한 저장소)로 Push:
+```
+git push origin master
+```
 
 ## 기타  
 #### .gitignore 파일 작성하기(예시):
