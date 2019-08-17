@@ -1,7 +1,8 @@
 # Git-Practice  
 Git 연습을 위한 저장소
 
-## 주요 설정  
+## 주요 설정
+---
 #### SSH 키 생성 및 퍼미션 조정:
 ```
 ssh-keygen -t rsa -b 4096 -C "(이메일 주소)"
@@ -50,6 +51,8 @@ ssh -T git@github.com
 
 #### [GitHub에서 원격 저장소 생성]
 
+---
+
 #### Git 시작하기(--global로 지정된 명령은 최초 1회만 입력):
 ```
 git init
@@ -83,6 +86,7 @@ git commit -m "(커밋 메시지)"
 git push origin master
 ```
 
+---
 #### Git 서브모듈(Git 저장소 안의 또다른 저장소) Push하기:
 ```
 git submodule add (SSH 형식의 서브모듈 저장소 링크)
@@ -99,6 +103,8 @@ git push origin master
 ```
 git clone --recursive (SSH 형식의 저장소 링크)
 ```
+
+---
 
 ## Fork한 저장소를 원본 저장소의 최신 상태로 동기화하기
 * 다운스트림(Downstream): Fork된 저장소, 또는 Fork하는 행위
@@ -125,7 +131,7 @@ git merge upstream/master
 ```
 git push origin master
 ```
-
+---
 ## 기타  
 #### .gitignore 파일 작성하기(예시):
 ```
