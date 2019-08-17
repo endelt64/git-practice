@@ -87,7 +87,8 @@ git push origin master
 ```
 git submodule add (SSH 형식의 서브모듈 저장소 링크)
 cd (서브모듈 폴더)
-git commit -am "서브모듈 커밋 메시지"
+git add --all
+git commit -m "서브모듈 커밋 메시지"
 git push origin master
 cd ..
 git commit -am "마스터 커밋 메시지"
