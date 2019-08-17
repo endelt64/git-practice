@@ -88,7 +88,7 @@ git push origin master
 ---
 #### Git 서브모듈(Git 저장소 안의 또다른 저장소) Push하기:
 ```
-git submodule add (SSH 형식의 서브모듈 저장소 링크)
+git submodule add (SSH 형식의 서브모듈 저장소 링크) [.gitmodules 파일 자동 생성]
 cd (서브모듈 폴더)
 git add --all
 git commit -m "서브모듈 커밋 메시지"
