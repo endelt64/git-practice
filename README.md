@@ -83,6 +83,17 @@ git commit -m "(커밋 메시지)"
 git push origin master
 ```
 
+#### Git 서브모듈(Git 저장소 안의 또다른 저장소) Push하기:
+```
+git submodule add (SSH 형식의 서브모듈 저장소 링크)
+cd (서브모듈 폴더)
+git commit -am "서브모듈 커밋 메시지"
+git push origin master
+cd ..
+git commit -am "마스터 커밋 메시지"
+git push origin master
+```
+
 ## Fork한 저장소를 원본 저장소의 최신 상태로 동기화하기
 * 다운스트림(Downstream): Fork된 저장소, 또는 Fork하는 행위
 * 업스트림(Upstream): 원본 저장소, 또는 원본 저장소에 Push하는 행위
