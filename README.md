@@ -120,7 +120,7 @@ git remote -v
 git fetch upstream
 ```
 
-#### 로컬 저장소의 마스터 브랜치로 이동한 후, 업스트림의 마스터 브랜치와 병합:
+#### 로컬 저장소의 마스터 브랜치로 이동한 후, 업스트림의 마스터 브랜치를 로컬 저장소로 병합:
 ```
 git checkout master
 git merge upstream/master
