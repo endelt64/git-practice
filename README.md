@@ -172,6 +172,18 @@ git commit -am "(커밋 메시지)"
 git pull origin master
 ```
 
+#### 원격 저장소로부터 Pull할 때 "Please commit your changes or stash them before you merge" 에러 발생:
+```
+git stash [수정한 소스를 저장하고 이전 커밋 시점으로 되돌림]
+git pull origin master
+git stash pop [수정한 소스와 pull한 소스가 병합됨]
+
+(소스 수정)
+
+git commit -m "(커밋 메시지)"
+git push origin master
+```
+
 #### 로컬 저장소는 그대로 둔 채 원격 저장소에 있는 파일/폴더만 삭제하기:
 ```
 git rm -r --cached ./(삭제할 파일 또는 폴더)
