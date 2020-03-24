@@ -1,5 +1,5 @@
 # Git-Practice  
-Git 연습을 위한 저장소
+Git 연습을 위한 저장소 ([참고 문서](https://kimseunghyun76.tistory.com/116))
 
 ## 주요 설정  
 #### SSH 키 생성 및 퍼미션 조정:
@@ -83,6 +83,12 @@ git status
 git add -p
 git commit -m "(커밋 메시지)"
 git push origin master
+```
+
+#### 이전 커밋으로 돌아갔다가 복귀하기:
+```
+git checkout HEAD~(숫자) [입력한 숫자만큼 이전 단계의 커밋으로 이동 ex) git checkout HEAD~1: 1단계 이전 커밋]
+git checkout (복귀할 브랜치 이름)
 ```
 
 ---
