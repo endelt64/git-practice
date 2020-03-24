@@ -90,7 +90,7 @@ git push origin master
 ```
 git branch -b (브랜치 이름)
 git checkout (브랜치 이름)
-git checkout HEAD~(숫자) [입력한 숫자만큼 이전 단계의 커밋으로 복귀 ex) git checkout HEAD~1: 1단계 이전 커밋
+git checkout HEAD~(숫자) [입력한 숫자만큼 이전 단계의 커밋으로 복귀 ex) git checkout HEAD~1: 1단계 이전 커밋]
 ```
 
 #### 전체 브랜치의 목록과 현재 참조하고 있는 브랜치 확인:
