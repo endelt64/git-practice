@@ -174,7 +174,7 @@ git pull origin master
 
 #### 로컬 저장소는 그대로 둔 채 원격 저장소에 있는 파일/폴더만 삭제하기:
 ```
-git rm -r --cached ./(삭제할 파일 폴더)
+git rm -r --cached ./(삭제할 파일 또는 폴더)
 git commit -m "Remove files/folders"
 git push origin master
 ```
