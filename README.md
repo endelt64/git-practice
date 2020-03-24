@@ -1,5 +1,5 @@
 # Git-Practice  
-Git 연습을 위한 저장소
+Git 연습을 위한 저장소 ([참고 문서](https://kimseunghyun76.tistory.com/116))
 
 ## 주요 설정  
 #### SSH 키 생성 및 퍼미션 조정:
