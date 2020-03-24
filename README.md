@@ -143,7 +143,7 @@ git checkout master
 git merge upstream/master
 ```
 
-#### 새롭게 병합한 로컬 저장소를 원격 저장소(Fork한 저장소)로 Push:
+#### 새롭게 병합한 로컬 저장소를 원격 저장소(Fork한 저장소)의 마스터 브랜치로 Push:
 ```
 git push origin master
 ```
