@@ -175,7 +175,7 @@ git pull origin master
 #### 원격 저장소로부터 Pull할 때 "Please commit your changes or stash them before you merge" 에러 발생:
 * `stash` 명령어 참고: https://gmlwjd9405.github.io/2018/05/18/git-stash.html
 ```
-git stash [수정한 내역을 임시 저장하고 마지막 커밋 이후 ~ 마지막 수정 이전의 시점으로 되돌림]
+git stash [수정한 내역을 임시 저장하고 마지막 커밋 이후, 마지막 수정 이전의 시점으로 되돌림]
 git pull origin master
 git stash pop [임시 저장한 내역을 꺼내서 현재 소스 코드와 병합]
 
