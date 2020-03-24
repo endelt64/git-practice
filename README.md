@@ -86,6 +86,23 @@ git push origin master
 ```
 
 ---
+#### 브랜치 생성 및 이동:
+```
+git branch -b (브랜치 이름)
+git checkout (브랜치 이름)
+```
+
+### 전체 브랜치의 목록과 현재 참조하고 있는 브랜치 확인:
+```
+git branch
+```
+
+### 브랜치 삭제:
+```
+git branch -d (브랜치 이름)
+```
+
+---
 #### Git 서브모듈(Git 저장소 안의 또다른 저장소) Push하기:
 ```
 git submodule add (SSH 형식의 서브모듈 저장소 링크) [.gitmodules 파일 자동 생성]
