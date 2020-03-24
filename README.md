@@ -201,6 +201,7 @@ git pull origin master
 git stash [수정한 내역을 임시 저장하고 마지막 커밋 이후, 마지막 수정 이전(스테이징 이전)의 시점으로 되돌림]
 git pull origin master
 git stash pop [임시 저장한 내역을 꺼내서 현재 소스 코드와 병합]
+(git stash pop --index [스테이징 기록을 유지한 채 임시 저장한 내역을 꺼내옴])
 
 (소스 수정)
 
