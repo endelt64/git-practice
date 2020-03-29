@@ -162,6 +162,7 @@ git push origin master
 .idea/
 META-INF/
 out/
+*.iml
 
 # Visual Studio Code configurations
 .vscode/
