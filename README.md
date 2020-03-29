@@ -82,6 +82,7 @@ git clone git@github.com:NDelt/Git-Practice.git
 git add -p [스테이징]
 git commit -m "(커밋 메시지)" [커밋]
 git push origin master [푸시]
+(git push -f origin master [현재 원격 저장소의 상태를 무시하고 강제 푸시]
 git status
 ```
 
