@@ -18,19 +18,12 @@ cat ~/.ssh/(공개 키 파일) >> ~/.ssh/authorized_keys
 
 #### SSH 폴더 및 키 퍼미션 조정
 ```
-chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 chmod 400 ~/.ssh/(공개 키 파일)
 chmod 400 ~/.ssh/(개인 키 파일)
 ```
 
-#### SSH 에이전트에 개인 키 등록 (리눅스)
-```
-eval "$(ssh-agent -s)" [아래의 ssh-add 명령어가 동작하지 않을 경우]
-ssh-add ~/.ssh/(개인 키 파일)
-```
-
-#### 원격지 서버에 공개 키 전송
+#### 원격지 서버에 공개 키 전송 (리눅스)
 ```
 ssh-copy-id -i (공개 키 파일) (사용자명)@(외부 IP)
 ```
@@ -38,9 +31,6 @@ ssh-copy-id -i (공개 키 파일) (사용자명)@(외부 IP)
 #### /etc/ssh/sshd_config 파일 설정
 ```
 Port 2222 [WSL 전용: 윈도우 기본 SSH 포트 22와의 충돌 방지]
-PermitRootLogin without-password
-PubkeyAuthentication yes
-AuthorizedKeysFile .ssh/authorized_keys .ssh/authorized_keys2
 PasswordAuthentication yes [선택]
 ```
 
