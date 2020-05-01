@@ -88,7 +88,7 @@ git checkout (복귀할 브랜치 이름)
 ---
 #### 브랜치 생성 및 이동:
 ```
-git branch -b (브랜치 이름)
+git checkout -b (브랜치 이름)
 git checkout (브랜치 이름)
 ```
 
