@@ -60,7 +60,7 @@ git config --global core.autocrlf input
 
 #### 원격 저장소를 로컬에 추가:
 ```
-git remote add origin git@github.com:NDelt/Git-Practice.git
+git remote add origin git@github.com:hwooo/git-practice.git
 git remote -v
 git pull origin master
 ```
