@@ -73,6 +73,7 @@ ssh -T git@github.com
 ```
 
 #### GitHub에서 원격 저장소 생성
+Private 또는 Public 저장소를 선택한다.
 
 ---
 
