@@ -44,7 +44,7 @@ ssh-keygen -t rsa -b 4096 -C "(이메일 주소)"
 [-t: 키의 타입 결정(rsa/dsa), -b: 키의 비트 수 결정(4096-bit), -C: 키 끝에 남길 코멘트]
 ```
 
-ssh-keygen -t rsa까지만 입력해도 기본적인 키는 생성이 가능하다.
+'ssh-keygen -t rsa'까지만 입력해도 기본적인 키는 생성이 가능하다.
 
 #### 공개 키를 authorized_keys 파일에 등록
 ```
