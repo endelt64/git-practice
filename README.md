@@ -108,7 +108,7 @@ git pull origin master
 
 #### 기존의 원격 저장소를 로컬에 복제
 ```
-git clone git@github.com:NDelt/Git-Practice.git
+git clone git@github.com:hwooo/git-practice.git
 ```
 
 #### 원격 저장소에 Push하기
