@@ -3,6 +3,7 @@ Git 연습을 위한 저장소 ([참고 문서](https://kimseunghyun76.tistory.c
 
 ## 목차
 * [주요 설정](#주요-설정)
+  * [시작](#시작)
     * [SSH 키 생성](#ssh-키-생성)  
     * [공개 키를 authorized_keys 파일에 등록](#공개-키를-authorized_keys-파일에-등록)  
     * [SSH 폴더 및 키 퍼미션 조정](#ssh-폴더-및-키-퍼미션-조정)  
@@ -13,6 +14,7 @@ Git 연습을 위한 저장소 ([참고 문서](https://kimseunghyun76.tistory.c
     * [GitHub에서 원격 저장소 생성](#github에서-원격-저장소-생성)
     * [Git 저장소 활성화하기](#git-저장소-활성화하기)
     * [개행-문자를-LF로-유지](#개행-문자를-lf로-유지)
+  * [저장소와 커밋 관리](#저장소와-커밋-관리)
     * [원격 저장소를 로컬에 추가](#원격-저장소를-로컬에-추가)
     * [기존의 원격 저장소를 로컬에 복제](#기존의-원격-저장소를-로컬에-복제)
     * [원격 저장소에 Push하기](#원격-저장소에-push하기)
@@ -21,6 +23,7 @@ Git 연습을 위한 저장소 ([참고 문서](https://kimseunghyun76.tistory.c
     * [브랜치 생성 및 이동](#브랜치-생성-및-이동)
     * [전체 브랜치의 목록과 현재 참조하고 있는 브랜치 확인](#전체-브랜치의-목록과-현재-참조하고-있는-브랜치-확인)
     * [브랜치 삭제](#브랜치-삭제)
+  * [서브모듈](#서브모듈)
     * [Git 서브모듈 Push하기](#git-서브모듈-push하기)
     * [Git 서브모듈을 포함하여 원격 저장소를 로컬로 가져오기](#git-서브모듈을-포함하여-원격-저장소를-로컬로-가져오기)
 * [Fork한 저장소를 원본 저장소의 최신 상태로 동기화하기](#fork한-저장소를-원본-저장소의-최신-상태로-동기화하기)
@@ -34,6 +37,7 @@ Git 연습을 위한 저장소 ([참고 문서](https://kimseunghyun76.tistory.c
     * [에러 대응](#에러-대응)
 
 ## 주요 설정  
+### 시작  
 #### SSH 키 생성
 ```
 ssh-keygen -t rsa -b 4096 -C "(이메일 주소)"
@@ -92,6 +96,7 @@ git config --global core.eol lf
 git config --global core.autocrlf input
 ```
 
+### 저장소와 커밋 관리
 #### 원격 저장소를 로컬에 추가
 ```
 git remote add origin git@github.com:hwooo/git-practice.git
@@ -126,6 +131,7 @@ git remote set-url origin (SSH 형식의 저장소 링크)
 
 ---
 
+### 브랜치
 #### 브랜치 생성 및 이동
 ```
 git checkout -b (브랜치 이름)
@@ -146,6 +152,7 @@ git branch -d (브랜치 이름)
 
 ---
 
+### 서브모듈
 #### Git 서브모듈 Push하기
 ```
 git submodule add (SSH 형식의 서브모듈 저장소 링크) [.gitmodules 파일 자동 생성]
