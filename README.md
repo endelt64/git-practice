@@ -117,6 +117,7 @@ git add -p [스테이징]
 git commit -m "(커밋 메시지)" [커밋]
 git push origin master [푸시]
 (git push -f origin master [현재 원격 저장소의 상태를 무시하고 강제 푸시])
+(git push origin <branch-name> [특정 브랜치를 원격 저장소에 푸시])
 git status
 ```
 
@@ -145,6 +146,11 @@ git checkout (브랜치 이름)
 #### 전체 브랜치의 목록과 현재 참조하고 있는 브랜치 확인
 ```
 git branch
+```
+
+#### 원격 저장소의 브랜치 목록 확인
+```
+git branch -r
 ```
 
 #### 브랜치 삭제
@@ -195,7 +201,7 @@ git checkout master
 git merge upstream/master
 ```
 
-#### 새롭게 병합한 로컬 저장소를 원격 저장소의 마스터 브랜치로 Push
+#### 새롭게 병합한 로컬 저장소의 마스터 브랜치를 원격 저장소의 마스터 브랜치로 Push
 ```
 git push origin master
 ```
